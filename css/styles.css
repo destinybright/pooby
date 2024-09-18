@@ -182,27 +182,33 @@ footer {
 
 @media (max-width: 768px) {
     h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
+        padding: 15px;
     }
 
-    #egg {
-        width: 150px;
+    .egg-container, .pet-container {
+        width: 90%;
+        height: auto;
+    }
+    
+    #big-image, #egg {
+        width: 80%;
+    }
+    
+    .small-image {
+        width: 60px;
+    }
+    
+    .egg-selection a img {
+        width: 100px;
     }
 
     #poke-link img {
-        width: 120px;
+        width: 100px;
     }
 
-    .egg-selection a img {
-        width: 120px;
-    }
-
-    .small-image {
-        width: 70px;
-    }
-
-    #big-image {
-        width: 250px;
+    .logo {
+        max-width: 25%;
     }
 }
 
