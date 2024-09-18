@@ -185,6 +185,10 @@ footer {
         font-size: 6px;
         padding: 15px;
     }
+
+    .writing {
+        font-size: 15px;
+    }
     
     #big-image, #egg {
         width: 80%;
