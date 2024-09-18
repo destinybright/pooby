@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Pooby</title>
+    <link rel="stylesheet" href="../../css/styles.css">
+    <script src="../../javascript/pooby.js" defer></script>
+    <script src="../../javascript/header.js" defer></script>
+</head>
+<body>
+    <div class="pet-container">
+        <!-- Big image that changes when clicking on the small images -->
+        <img id="big-image" src="../../images/Poobystillpink.gif" alt="Big Pet Image">
+        <div class="small-images">
+            <!-- Clicking these will change the big image -->
+            <img src="../../images/read.png" alt="Read" class="small-image" onclick="changeImage('../../images/Poobpinkread.gif')">
+            <img src="../../images/feed.png" alt="Feed" class="small-image" onclick="changeImage('../../images/Pinkcookie.gif')">
+            <img src="../../images/sleep.png" alt="Sleep" class="small-image" onclick="changeImage('../../images/Poobysleeppink.gif')">
+        </div>
+    </div>
+    <div class="space"></div>
+    <h1 class="writing"><span>Congrats! You have a  new pink pooby!
+          Try letting it read, eat,or sleep!
+  </span>
+  </h1>
+  <script src="../../javascript/scripts.js"></script>
+</body>
+</html>
