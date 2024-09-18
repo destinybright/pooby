@@ -207,7 +207,7 @@ footer {
     }
     
     .small-image {
-        width: 50px;
+        width: 65px;
     }
     
     .egg-selection a img {
@@ -223,13 +223,13 @@ footer {
     }
 
     .egg-container, .pet-container {
-        width: 250px;
-        height: 270px;
+        width: 300px;
+        height: 350px;
     }
     
     .pet-container {
-        width: 250px;
-        height: 270px;
+        width: 300px;
+        height: 350px;
     }
 
     footer {
