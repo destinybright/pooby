@@ -196,7 +196,7 @@ footer {
     }
     
     .small-image {
-        width: 60px;
+        width: 30px;
     }
     
     .egg-selection a img {
@@ -204,21 +204,21 @@ footer {
     }
 
     #poke-link img {
-        width: 100px;
+        width: 75px;
     }
 
     .logo {
-        max-width: 40%;
+        max-width: 30%;
     }
 
     .egg-container, .pet-container {
-        width: 300px;
-        height: 350px;
+        width: 200px;
+        height: 250px;
     }
     
     .pet-container {
-        width: 300px;
-        height: 350px;
+        width: 200px;
+        height: 250px;
     }
 }
 
