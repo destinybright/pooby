@@ -6,7 +6,7 @@
 
 body {
     font-family: 'MyWebFont', sans-serif;
-    background-color: #fff2ab;
+    background-color: #fff9e4;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -147,8 +147,37 @@ h1 {
     animation: fadeInUp 0.5s forwards;
 }
 
-.egg-selection a img:hover, .small-image:hover {
+.egg-selection a img:hover, .small-image:hover, .logo:hover {
     transform: scale(1.1);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f3deff;
+    padding: 10px;
+    text-align: center;
+}
+
+#copy-link-button {
+    background-color: #c4a1d8;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'MyWebFont';
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#copy-link-button:hover {
+    background-color: #a07abf;
 }
 
 @media (max-width: 768px) {
