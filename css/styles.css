@@ -231,6 +231,15 @@ footer {
         width: 250px;
         height: 270px;
     }
+
+    footer {
+        padding: 5px;
+    }
+
+    #copy-link-button {
+        font-size: 8px;
+        padding: 5px 10px;
+    }
 }
 
 @font-face {
