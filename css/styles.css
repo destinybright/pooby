@@ -184,7 +184,10 @@ footer {
     .writing {
         font-size: 15px;
     }
-    
+
+    .logo-container {
+        padding: 10px;
+    }
     
     h1 {
         font-size: 6px;
