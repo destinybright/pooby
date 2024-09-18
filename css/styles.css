@@ -182,13 +182,8 @@ footer {
 
 @media (max-width: 768px) {
     h1 {
-        font-size: 1.5rem;
+        font-size: 20px;
         padding: 15px;
-    }
-
-    .egg-container, .pet-container {
-        width: 90%;
-        height: auto;
     }
     
     #big-image, #egg {
@@ -208,7 +203,17 @@ footer {
     }
 
     .logo {
-        max-width: 25%;
+        max-width: 40%;
+    }
+
+    .egg-container, .pet-container {
+        width: 300px;
+        height: 350px;
+    }
+    
+    .pet-container {
+        width: 300px;
+        height: 350px;
     }
 }
 
