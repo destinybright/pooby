@@ -188,6 +188,10 @@ footer {
     .logo-container {
         padding: 10px;
     }
+
+    .space {
+        padding: 10px;
+    }
     
     h1 {
         font-size: 6px;
