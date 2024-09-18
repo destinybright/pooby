@@ -219,13 +219,13 @@ footer {
     }
 
     .egg-container, .pet-container {
-        width: 200px;
-        height: 250px;
+        width: 150px;
+        height: 200px;
     }
     
     .pet-container {
-        width: 200px;
-        height: 250px;
+        width: 150px;
+        height: 200px;
     }
 }
 
